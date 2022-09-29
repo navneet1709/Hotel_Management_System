@@ -73,7 +73,7 @@ public class AddDrivers extends JFrame implements ActionListener{
 	comboBox.setBounds(176, 150, 154, 20);
 	contentPane.add(comboBox);
 
-	JLabel l4 = new JLabel("Car Company");
+	JLabel l4 = new JLabel("Car Brand");
 	l4.setForeground(new Color(25, 25, 112));
 	l4.setFont(new Font("Tahoma", Font.BOLD, 14));
 	l4.setBounds(64, 190, 102, 22);
@@ -83,7 +83,7 @@ public class AddDrivers extends JFrame implements ActionListener{
 	t3.setBounds(174, 190, 156, 20);
 	contentPane.add(t3);
 
-        JLabel l5 = new JLabel("Car Brand");
+        JLabel l5 = new JLabel("Car Model");
 	l5.setForeground(new Color(25, 25, 112));
 	l5.setFont(new Font("Tahoma", Font.BOLD, 14));
 	l5.setBounds(64, 230, 102, 22);
